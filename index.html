@@ -1,32 +1,46 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloth Shopping</title>
 </head>
 <body>
-	<h1>Welcome to Home Page,</h1>
-	<br><br>
-	<center>(If you want to login)<br>
-	<a href="login.html"><input type="submit" value="Login" size=35></a></center>
-	<br><br><br>
-	<img src="Cloth.jpg" alt="Cloth" style="width:1000px;height:700px;">
-<br><br>
-<b><u>
-	Click on the approptiate Link as per your choice 
-</u></b>
-<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="men.html"><b>For Men</b></a>
-<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="women.html"><b>For Women</b></a>
-<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="children.html"><b>For Children</b></a>
-<br><br><br><br>
-<form action="login.html" method="">
-<input type="submit" value="Logout">
-</form>
-<br><br>
-<a href="Aboutus.html"><b>About us</b></a>
+
+<!-- header-->
+    <header>
+       
+<div class="pg1">
+  <div class="pl1"><a href="adlogin.html">Admin</a></div>
+   <div class="pl1" style="float:right"><a class="active" href="registration.html">Sign Up</a></div>
+  <div class="pl1" style="float:right"><a class="active" href="login.html">Login</a></div>
+</div>
+   </header>
+ <!-- /header-->  
+ <br><br> 
+ <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#td.html">Today's Deal</li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Category</a>
+      <div class="dropdown-content">
+        <a href="men.html">Men</a>
+        <a href="woman.html">Women</a>
+        <a href="child.html">Childrem</a>
+      </div>
+    </li>
+  </ul>
+  
+  <br><br>
+
+  <img src="Cloth.jpg" alt="Cloth" style="width:1000px;height:700px;">
+  <br><br>
+
+  <!--End-->
+  <button class="button" onclick="location='Aboutus.html'">About Us</button>
+  <!--/End-->
+
+    <link rel="stylesheet" href="./css/style.css">
+
 </body>
 </html>
