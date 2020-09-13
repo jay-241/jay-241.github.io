@@ -1,0 +1,181 @@
+.container{
+    width: 100%;
+    margin-top: 3%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.row{
+    margin-top: 20px;
+}
+
+  .image2 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    overflow: hidden;
+  }
+
+  .image2:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+ 
+
+
+
+  * {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container1 {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
+/* Make the image to responsive */
+.image1 {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 5px solid #555;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container1:hover .overlay1 {
+  opacity: 1;
+}
+.btn1 {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 30px;
+  font-weight: 900;
+  cursor: pointer;
+}
+.info {
+  border: 5px solid #555;
+  color: dodgerblue
+}
+
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
+
+p{
+    color: #999;
+    line-height: 25px;
+}
+
+h4,h5{
+    color: #fff;
+}
+
+h4{
+    font-size: 18px;
+}
+
+.footer-top{
+  background: #111;
+  padding: 80px 0;
+}
+
+.segment-one h4{
+  color:#fff;
+  font-family: Poppins;
+  text-transform: uppercase;
+
+}
+
+.segment-two h5{
+  color:#fff;
+  font-family: Poppins;
+  text-transform: uppercase;
+}
+
+.segment-two ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.segment-two ul li{
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  line-height: 40px;
+}
+
+.segment-two ul li a{
+  color: #999;
+  text-decoration: none;
+}
+
+.segment-three h5{
+    color: #fff;
+    font-family: Poppins;
+    text-transform: uppercase;
+}
+
+.segment-three a{
+  background: #494848;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+}
+    
+.segment-three a i{
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 12px;
+}
+
+.segment-four h5{
+    color: #fff;
+    font-family: Poppins;
+    text-transform: uppercase;
+}
+
+.segment-four form input[type=submit]{
+  background: #c65039;
+  border: none;
+  padding: 3px 15px;
+  color: #fff;
+  text-transform: uppercase;
+
+}
+

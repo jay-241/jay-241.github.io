@@ -1,0 +1,44 @@
+
+
+h3{
+    font-size: 12p;
+    display: block;
+    border: 1p solid #ccc;
+    margin: 0 0 10px 0;
+    padding: 0 0 5px 0;
+}
+
+button{
+    border: 1p solid #ef4478;
+    padding: 4px 14px;
+    background-color: #ef4478;
+    color: white;
+    text-transform: uppercase;
+    flex: right;
+    margin: 5px 0;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: tahoma;
+    border-radius: 50px; 
+}
+
+button:focus{
+    outline: none !important;
+}
+
+span{
+    float: right;
+}
+
+p{
+    font-size: 14px;
+}
+
+.shopping-cart{
+    display: inline-block;
+    background: url(logo2.jpg) no-repeat 0 0;
+    width: 24px;
+    height: 24p;
+    margin: 0 10px 0 0;
+
+}
